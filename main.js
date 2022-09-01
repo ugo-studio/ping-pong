@@ -16,7 +16,7 @@ game.addEventListener("scroll", (e) => {
   let scrollY = e.target.scrollTop;
   //   console.log(scrollY);
   if (scrollY < window.innerHeight - 70) {
-    bat.style.top = `${-scrollY}px`;
+    bat.style.top = `${scrollY}px`;
   } else {
     bat.style.top = `${window.innerHeight - 80}px`;
   }
