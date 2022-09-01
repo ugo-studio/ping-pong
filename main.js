@@ -78,5 +78,5 @@ restart.addEventListener("click", () => {
 
 // exit event handler
 exit.addEventListener("click", () => {
-  window.location.reload();
+  window.open('/');
 });
